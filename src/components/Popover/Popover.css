@@ -1,0 +1,14 @@
+.Popover {
+	background: #f9f9f9;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 2px 2px 0px rgba(0,0,0,.05);
+	box-sizing: border-box;
+	display: none;
+	margin-top: -1px;
+	position: absolute;
+	z-index: 100;
+}
+
+.Popover.is-open {
+	display: block;
+}

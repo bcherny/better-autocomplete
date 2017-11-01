@@ -1,0 +1,24 @@
+@import "../../index.css";
+
+.List {
+  list-style: none;
+}
+
+.List li {
+	border: 1px solid #ddd;
+  font-weight: 400;
+  margin-top: -1px;
+  padding: 6px 20px; /* line up with form <input> text */
+  transition: .05s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.Popover .List li:last-of-type {
+  border-radius: 0 0 5px 5px;
+}
+
+.List li.is-selected {
+  background-color: var(--red3);
+  border-color: var(--red4);
+  color: #fff;
+  cursor: pointer;
+}

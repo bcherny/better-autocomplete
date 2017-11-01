@@ -1,0 +1,15 @@
+.Autocomplete-Wrapper {
+  position: relative;
+}
+
+.Autocomplete-Wrapper .Loader {
+  position: absolute;
+    right: -45px;
+    top: 10px;
+}
+
+@media only screen and (max-device-width: 800px) {
+  .Autocomplete-Wrapper .Loader {
+    right: 10px; /* inside the <input> */
+  }
+}

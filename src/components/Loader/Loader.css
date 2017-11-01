@@ -1,0 +1,17 @@
+@keyframes Spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.Loader {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--grey);
+  border-top-color: var(--blue);
+  animation: Spin 1s infinite linear;
+}
